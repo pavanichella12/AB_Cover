@@ -1,0 +1,46 @@
+# Ignore everything by default
+*
+
+# But track these specific files
+!.gitignore
+!dashboard_fresh.py
+!analysis.ipynb
+!Ballard Absences ABCover.xlsx
+!README.md
+
+# Only track specific PNG files
+!pie_chart.png
+!output*.png
+!output-*.png
+!type_description_pie_chart.png
+
+# Ignore common system files
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+abcover_env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore temp files
+~$*
+*.tmp
+
