@@ -109,11 +109,11 @@ elif page == "📈 Yearly and Monthly Trends":
     
     with col1:
         st.markdown('<div class="chart-title">All Teachers Trend</div>', unsafe_allow_html=True)
-        st.image("output10.png", use_column_width=True)
+        st.image("output10.png", use_container_width=True)
     
     with col2:
         st.markdown('<div class="chart-title">Monthly Absence Costs</div>', unsafe_allow_html=True)
-        st.image("output-11.png", use_column_width=True)
+        st.image("output-11.png", use_container_width=True)
 
 # Page 3: Top Teachers
 elif page == "👥 Top Teachers":
@@ -121,7 +121,7 @@ elif page == "👥 Top Teachers":
     
     # Display the chart first
     st.markdown('<div class="chart-title">Top 10 Teachers by School Year</div>', unsafe_allow_html=True)
-    st.image("output7.png", use_column_width=True)
+    st.image("output7.png", use_container_width=True)
     
     # Load data
     ballard_file = 'Ballard Absences ABCover.xlsx'
@@ -314,7 +314,7 @@ elif page == "Teachers category Analysis":
     st.header("📊 Teachers category Analysis")
     
     st.markdown('<div class="chart-title">Teacher Absence Across All Years</div>', unsafe_allow_html=True)
-    st.image("output1.png", use_column_width=True)
+    st.image("output1.png", use_container_width=True)
     
     # Heatmap insights
     st.markdown("""
@@ -330,7 +330,7 @@ elif page == "🔥 Teacher Heatmap Analysis":
     st.header("🔥 Teacher Heatmap Analysis")
     
     st.markdown('<div class="chart-title">Every Teacher Across All School Years</div>', unsafe_allow_html=True)
-    st.image("output_2.png", use_column_width=True)
+    st.image("output_2.png", use_container_width=True)
     
     # Heatmap explanation
     st.markdown("""
@@ -364,7 +364,7 @@ elif page == "📊 Absence Type Analysis":
     st.header("📊 Absence Type Analysis")
     
     st.markdown('<div class="chart-title">Absence Type Distribution</div>', unsafe_allow_html=True)
-    st.image("type_description_pie_chart.png", use_column_width=True)
+    st.image("type_description_pie_chart.png", use_container_width=True)
     
     # Type analysis insights
     st.markdown("""
@@ -431,15 +431,15 @@ elif page == "💰 Cost Breakdown":
     
     with col1:
         st.markdown('<div class="chart-title">Greater than 10 days</div>', unsafe_allow_html=True)
-        st.image("output_4.png", use_column_width=True)
+        st.image("output_4.png", use_container_width=True)
     
     with col2:
         st.markdown('<div class="chart-title">Greater than 15 days</div>', unsafe_allow_html=True)
-        st.image("output_5.png", use_column_width=True)
+        st.image("output_5.png", use_container_width=True)
     
     with col3:
         st.markdown('<div class="chart-title">Greater than 20 days</div>', unsafe_allow_html=True)
-        st.image("output_6.png", use_column_width=True)
+        st.image("output_6.png", use_container_width=True)
 
 # Page 8: ABCover vs District Coverage
 elif page == "🛡️ ABCover vs District Coverage":
@@ -447,7 +447,7 @@ elif page == "🛡️ ABCover vs District Coverage":
     
     # Display the chart by year
     st.markdown('<div class="chart-title">ABCover Coverage by School Year</div>', unsafe_allow_html=True)
-    st.image("abcover_coverage_by_year.png", use_column_width=True)
+    st.image("abcover_coverage_by_year.png", use_container_width=True)
     
     # Coverage table by threshold (summed across all years)
     st.subheader("📊 ABCover Insurance Coverage Summary (All Years)")
